@@ -1,5 +1,4 @@
 FROM node:alpine
-COPY ./packge*.json /
-RUN "npm install"
 COPY . .
+RUN "npm install"
 CMD ["node","index.js"]
