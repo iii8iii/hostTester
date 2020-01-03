@@ -1,4 +1,5 @@
 FROM node:alpine
 COPY . .
-RUN "npm install"
+RUN npm install
+EXPOSE 3000
 CMD ["node","index.js"]
