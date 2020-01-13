@@ -2,8 +2,11 @@ const Hapi = require('@hapi/hapi');
 const ytdl = require('ytdl-core');
 const Ammo = require('@hapi/ammo');
 
+const PORT = process.env.PORT || 3000
+
 const server = Hapi.server({
-    port: 3000,
+    port: PORT,
+    host: 'localhost'
 })
 
 server.route({
