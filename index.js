@@ -4,7 +4,6 @@ const Ammo = require('@hapi/ammo');
 
 const server = Hapi.server({
     port: 3000,
-    host: 'localhost'
 })
 
 server.route({
