@@ -20,7 +20,7 @@
   "homepage": "https://github.com/ocyangel/hostTester#readme",
   "dependencies": {
     "@hapi/ammo": "^4.0.0",
-    "@hapi/hapi": "^18.4.0",
+    "@hapi/hapi": "^19.1.1",
     "ytdl-core": "^1.0.6"
   }
 }
